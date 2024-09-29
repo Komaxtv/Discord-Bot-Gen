@@ -1,0 +1,15 @@
+{
+    "Steam": [],
+    "Netflix": [],
+    "Epic Games": [
+        {
+            "email": "epic1@gmail.com",
+            "mdp": "mdpabc"
+        },
+        {
+            "email": "epic2@gmail.com",
+            "mdp": "mdpdef"
+        }
+    ],
+    "Crunchyroll": []
+}

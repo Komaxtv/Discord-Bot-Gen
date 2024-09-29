@@ -1,0 +1,18 @@
+{
+    "Steam": [],
+    "Netflix": [],
+    "Epic Games": [
+        {
+            "email": "epic1@example.com",
+            "mdp": "epicgamer333"
+        },
+        {
+            "email": "epic2@example.com",
+            "mdp": "fortnite456"
+        },
+        {
+            "email": "epic3@example.com",
+            "mdp": "freegames789"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Steam": [
+        {
+            "email": "steam1@gmail.com",
+            "mdp": "mdp123"
+        },
+        {
+            "email": "steam2@gmail.com",
+            "mdp": "mdp456"
+        }
+    ],
+    "Netflix": [
+        {
+            "email": "netflix1@gmail.com",
+            "mdp": "mdp789"
+        },
+        {
+            "email": "netflix2@gmail.com",
+            "mdp": "mdp101"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+2024-09-28 08:58:27,103 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-28 08:58:27,105 - INFO - logging in using static token
+2024-09-28 08:58:27,973 - INFO - Shard ID None has connected to Gateway (Session ID: 14e15607587b8f20c0f19d92e72c6eb5).
+2024-09-28 08:58:29,991 - INFO - Bot connecté en tant que testbot#1823
+2024-09-28 08:58:37,475 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "genhelp" is not found
+2024-09-28 08:58:46,827 - ERROR - Ignoring exception in command gen
+Traceback (most recent call last):
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: service is a required argument that is missing.
+2024-09-28 08:58:50,617 - INFO - komaxtv0 a généré un compte Steam.
+2024-09-28 08:58:50,619 - INFO - Les comptes ont été sauvegardés dans compte.json.
+2024-09-28 08:58:54,081 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "genhelp" is not found
+2024-09-28 08:58:56,481 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "genhelp" is not found
+2024-09-28 08:59:09,550 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "stock" is not found
+2024-09-28 08:59:17,453 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "information" is not found
+2024-09-28 08:59:42,500 - INFO - youn3s_ab_92384 a généré un compte Netflix.
+2024-09-28 08:59:42,506 - INFO - Les comptes ont été sauvegardés dans compte.json.
+2024-09-28 08:59:55,630 - INFO - komaxtv0 a généré un compte vérifié pour Netflix.
+2024-09-28 08:59:55,631 - INFO - Les comptes ont été sauvegardés dans comptecheck.json.
+2024-09-28 09:01:35,511 - INFO - komaxtv0 a généré un compte Steam.
+2024-09-28 09:01:35,516 - INFO - Les comptes ont été sauvegardés dans compte.json.
+2024-09-28 15:42:09,803 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-28 15:42:09,805 - INFO - logging in using static token
+2024-09-28 15:42:10,836 - INFO - Shard ID None has connected to Gateway (Session ID: 617015af4c684e8f0cc1ba875331aa33).
+2024-09-28 15:42:12,842 - INFO - Bot connecté en tant que testbot#1823
+2024-09-28 15:42:25,856 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "cooldown" is not found
+2024-09-28 16:34:44,358 - ERROR - Attempting a reconnect in 1.86s
+Traceback (most recent call last):
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 931, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 573, in _request
+    with timer:
+  File "C:\Users\kylia\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 713, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2024-09-28 16:34:46,567 - INFO - Shard ID None session has been invalidated.
+2024-09-28 16:34:52,252 - INFO - Shard ID None has connected to Gateway (Session ID: e3c7e4aaece1cdf7ca3559e754226ac9).
+2024-09-28 16:34:54,269 - INFO - Bot connecté en tant que testbot#1823
+2024-09-28 16:35:52,413 - INFO - Shard ID None has successfully RESUMED session e3c7e4aaece1cdf7ca3559e754226ac9.
