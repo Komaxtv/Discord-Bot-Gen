@@ -1,0 +1,8 @@
+{
+    "gencheck": "ezbygen",  
+    "setrole": "admin",      
+    "addaccount": "admin",   
+    "removeaccount": "admin", 
+    "searchaccount": "admin", 
+    "notificationcompte": "admin"
+}
